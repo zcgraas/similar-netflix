@@ -1,0 +1,61 @@
+.heading-title{
+    margin-left: 30px;
+    font-size: 40px;
+    color: white;
+    display: flex;
+    margin-top: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.heading-description{
+    margin-left: 30px;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    width: 25vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.reset-movie{
+    background-color: transparent;
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: end;
+    color: white;
+    border-color: transparent;
+    cursor: pointer;
+    background-repeat: repeat;
+    margin-top: 20px;
+    margin-right: 35px;
+    
+}
+
+.heading-items{
+    display: flex;
+    flex-direction: row;
+    width: 100vw !important;
+    justify-content: space-between;
+}
+
+.heading-details{
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    p{
+        padding: 5px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .rating{
+        color: #0cf520;
+    }
+}
+
+.heading-logo{
+    width: 128px;
+    height: 35px;
+    margin-top: 20px;
+}

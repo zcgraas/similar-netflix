@@ -1,0 +1,33 @@
+.navigation {
+  background-color: wheat;
+  min-height: 10vh;
+  max-height: 20vh;
+  justify-content: right;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  display: flex; 
+}
+
+.navigation-sub{
+  display: flex;
+  flex-flow: row-wrap;
+  min-height: 10vh;
+  max-height: 20vh;
+  justify-content: space-around;
+}
+
+.item-nav{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  display: flex;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 20px;
+  text-decoration: none;
+  color: black;
+  
+}
+
+.body-background{
+  background-color: black;
+}

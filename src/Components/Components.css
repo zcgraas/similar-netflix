@@ -1,0 +1,135 @@
+/* Navigation Rules */
+
+.navigation {
+background-color: transparent;
+min-height: 10vh;
+max-height: 20vh;
+justify-content: right;
+align-items: center;
+width: 100%;
+position: fixed;
+display: flex; 
+top: 0px;
+z-index: 1;
+}
+
+.navigation-sub{
+display: flex;
+flex-flow: row-wrap;
+min-height: 10vh;
+max-height: 20vh;
+justify-content: space-around;
+position: fixed;
+z-index: 1;
+}
+
+.item{
+font-family: Georgia, 'Times New Roman', Times, serif;
+display: flex;
+padding-left: 35px;
+padding-right: 35px;
+padding-top: 20px;
+text-decoration: none;
+color: white;
+z-index: 3000;
+
+}
+
+
+/* Row Header Rules */
+
+.header-title{
+    color:white;
+    margin-left: 60px;
+}
+
+.row-header-spacing{
+    padding-top: 50px;
+    height: 50px;
+    padding-bottom: 25px;
+    width: 100%;
+    background-color: black;
+}
+
+/* Thumbnail Rules */
+
+.thumbnail-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh !important;
+    margin: 1rem;
+    position: relative;
+    width: 25vw !important;
+    background-color: black;
+    flex-direction: column;
+}
+
+.thumbnail-img{
+    display: flex;
+    height: 20vh  !important;
+    width: 25vw !important;
+    
+}
+
+.thumbnail-container:hover{
+    height: 35vh  !important;
+    transform: translateY(-50px);
+    background-color: blue;
+    transition-duration: .8s;
+}
+
+.thumbnail-container:hover .thumbnail-img{
+    transform: translateY(-50px);
+    transition-duration: .8s;
+}
+
+.thumbnail-icons{
+    height: 5px !important;
+    display: flex;
+    color: white;
+    flex-direction: row;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    transform: translateY(-45px);
+}
+
+.thumbnail-info{
+    height: 5px !important;
+    display: flex;
+    color: white;
+    flex-direction: row;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    transform: translateY(-25px);
+}
+
+.thumbnail-categories{
+    height: 5px !important;
+    display:flex;
+    color: white;
+    flex-direction: row;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    transform: translateY(-10px);
+}
+
+.row-thumbnails{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 20vh !important;
+    margin: 1rem;
+    position: relative;
+    width: 100%;
+    background-color: black;
+}
+
+.heading-background{
+    position: absolute;
+    display: flex;
+    height: 75vh !important;
+    width: 100vw !important;
+}
+
