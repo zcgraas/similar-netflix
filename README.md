@@ -1,6 +1,6 @@
 # Looks Pretty Similar to Netflix
 
-<img src="https://user-images.githubusercontent.com/10379601/29446482-04f7036a-841f-11e7-9872-91d1fc2ea683.png" height="200" align="right">
+<img src="https://i.pinimg.com/originals/88/c3/a3/88c3a34ef6f9e0e0c0921053240e8c7a.jpg" height="200" align="right">
 
 > Similar-Netflix was intitially built by me to get comfortable with React. Along the way I learned a lot and ended up adding quite a few more features than I initially planned. This web app is built with a React.js front-end. I styled using SASS and the [styled-components](https://styled-components.com/) library. The backend utilizes Google's [Firebase](https://firebase.google.com/) platform. Data is supplied from [The Movie Database](https://www.themoviedb.org/?language=en-US) using their API.
 
