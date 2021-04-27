@@ -1,6 +1,6 @@
 import React, { Component} from 'react';
 import './Components.css';
-import '../App.scss';
+import '../styles/App.scss';
 import Modal from './Modal.js';
 import styled from 'styled-components';
 

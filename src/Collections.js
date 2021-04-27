@@ -1,6 +1,6 @@
 import { Wrapper } from './Components/Wrapper.js'
 import react, { Component } from 'react';
-import './App.scss';
+import './styles/App.scss';
 
 
 

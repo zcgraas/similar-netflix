@@ -1,5 +1,4 @@
-import './App.css';
-import './App.scss';
+import './styles/App.scss';
 import Heading from './Components/Heading.js';
 import Collections from './Collections.js'
 

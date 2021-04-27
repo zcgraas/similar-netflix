@@ -55,7 +55,11 @@
     margin-top: -10px;
     text-shadow: 2px 2px #000;  
 }
-.modal-close:hover{
+.modal-icon{
+    stroke: black;
+    stroke-width: 20;
+}
+.modal-icon:hover{
     opacity: 75%;
 }
 

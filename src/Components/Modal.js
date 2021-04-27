@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../App.scss';
+import '../styles/App.scss';
 import '../styles/Modal.scss';
 import styled, {css} from 'styled-components';
 import { faTimes } from '@fortawesome/free-solid-svg-icons';
@@ -46,15 +46,15 @@ export default class Modal extends Component {
                 <ModalBackground background={this.props.banner}>
                 
                     <div className="modal-container">
-                    <button className="modal-close" onClick={this.props.close}><FontAwesomeIcon icon={faTimes} className="modal-close" /></button>
-                        <h1 className="modal-title">{this.props.title}</h1>
-                        <div className="modal-details">
-                            <p className="rating">{this.props.rating}</p>
-                            <p> {this.props.duration}</p>
-                        </div>
-                        <p className="modal-description">
-                            {this.props.description}
-                        </p>
+                        <button className="modal-close" onClick={this.props.close}><FontAwesomeIcon icon={faTimes} className="modal-icon modal-close" /></button>
+                            <h1 className="modal-title">{this.props.title}</h1>
+                            <div className="modal-details">
+                                <p className="rating">{this.props.rating}</p>
+                                <p> {this.props.duration}</p>
+                            </div>
+                            <p className="modal-description">
+                                {this.props.description}
+                            </p>
                     </div>
                 </ModalBackground>
             </div>

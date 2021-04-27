@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from  'react';
-import '../App.scss';
+import '../styles/App.scss';
 import Thumbnail from './Thumbnail.js';
 
 import firebase from 'firebase/app';
