@@ -3,7 +3,7 @@ import './Components.css';
 import '../styles/Heading.scss';
 import styled, { css } from 'styled-components';
 import { movieGet } from '../tmdbAPI';
-import { faRedo, faRetweet } from '@fortawesome/free-solid-svg-icons';
+import { faRedo } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 

@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import '../App.scss';
 import '../styles/Modal.scss';
 import styled, {css} from 'styled-components';
+import { faTimes } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 
 const ModalBackground = styled.div`
@@ -44,7 +46,7 @@ export default class Modal extends Component {
                 <ModalBackground background={this.props.banner}>
                 
                     <div className="modal-container">
-                    <button className="modal-close" onClick={this.props.close}>X</button>
+                    <button className="modal-close" onClick={this.props.close}><FontAwesomeIcon icon={faTimes} className="modal-close" /></button>
                         <h1 className="modal-title">{this.props.title}</h1>
                         <div className="modal-details">
                             <p className="rating">{this.props.rating}</p>

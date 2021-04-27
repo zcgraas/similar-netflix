@@ -18,8 +18,8 @@ export default class Collections extends Component{
                 <Wrapper collection='action' />
                 <h1 className='row-label'>Horror</h1>
                 <Wrapper collection='horror' />
-                <h1 className='row-label'>War</h1>
-                <Wrapper collection='war' />
+                <h1 className='row-label'>Sci-fi</h1>
+                <Wrapper collection='sci-fi' />
             </div>
             
         )
